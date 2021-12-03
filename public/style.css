@@ -1,0 +1,107 @@
+s*{
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;  
+}
+a{
+    color: rgb(17, 17, 126);
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.small{
+    font-size: 80%;
+text-align: center;
+}
+.splitScreen{
+    display: flex;
+    flex-direction: column;
+
+}
+.left{
+    height: 200px;
+}
+.left .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+background-image: url(./download.jpg);
+    background-size: cover;
+}
+.left .copy {
+text-align: center;
+}
+.left p{
+    font-weight: 400;
+}
+.right .copy{
+    color: black;
+    text-align: center;
+}
+.right .copy p{
+    margin: 1.5em 0;
+    font-size: 0.875rem;
+}
+.right form{
+    width: 328px;
+    align-content: center;
+}
+form input[type="text"]
+form input[type="email"]
+form input[type="password"]{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 1em;
+    margin-bottom: 1.25rem;
+    font-size: 00.875rem;
+}
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+
+}
+.inputContainerPassword{
+    position: relative;
+}
+.inputContainerPassword i{
+position: absolute;
+top: 42px;
+right: 16px;
+}
+/* .containerCta input{
+    position: absolute;
+/* opacity: 0; */
+/* cursor: pointer;
+height: 0;
+width: 0;
+} */ 
+/* .containerCta{
+ display: block;
+ position: relative;  
+ padding-left: 2rem;
+ cursor: pointer;
+ user-select: none;
+ margin: 0 0 1.25rem 0; 
+} */
+/* .containerCta input:checked-checkmark{
+    background-color: blue;
+    border: 1px;
+} */
